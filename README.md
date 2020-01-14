@@ -11,6 +11,19 @@
 
 ```
 
+Add mail.properties in resources file and add following properties
+
+```$xslt
+mail.protocol = smtp
+mail.host = smtp.gmail.com
+mail.port = 587
+mail.debug = true
+mail.smtp.auth = false
+mail.smtp.starttls.enable = false
+mail.username =
+mail.password =
+```
+
 
 #### Documentation
 
