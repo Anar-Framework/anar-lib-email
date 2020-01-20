@@ -25,7 +25,7 @@ public class EmailUtil {
     public JavaMailSender emailSender;
 
     @Autowired
-    private DateTimeUtil dateTimeUtil;
+    private DateTimeUtility dateTimeUtil;
 
     public void sendSimpleMessage(String to, String subject, String text) {
         SimpleMailMessage message = new SimpleMailMessage();

@@ -10,7 +10,7 @@ import java.util.Date;
 
 
 @Component
-public class DateTimeUtil {
+public class DateTimeUtility {
 
     ZoneId defaultZoneId = ZoneId.systemDefault();
 
