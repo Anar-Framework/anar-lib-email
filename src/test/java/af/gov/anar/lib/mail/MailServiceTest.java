@@ -3,7 +3,7 @@ package af.gov.anar.lib.mail;
 
 import af.gov.anar.lib.mail.service.MailBuilder;
 import af.gov.anar.lib.mail.service.MailService;
-import javafx.application.Application;
+// import javafx.application.Application;
 import lombok.extern.log4j.Log4j2;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -14,7 +14,7 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(classes = {Application.class})
+// @ContextConfiguration(classes = {Application.class})
 @Log4j2
 public class MailServiceTest {
 
